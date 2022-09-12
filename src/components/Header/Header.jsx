@@ -2,6 +2,8 @@ import React from 'react';
 //for links/redirects
 import { Link } from 'react-router-dom';
 import user from '../../images/user.png';
+//Link the scss file
+import "./Header.scss";
 
 const Header = () => {
   return (
