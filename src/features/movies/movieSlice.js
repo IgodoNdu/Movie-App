@@ -25,5 +25,10 @@ const movieSlice = createSlice({
 
 //now export the addMovies action created soas to be available for import into components
 export const { addMovies } = movieSlice.actions;
+
+//Getting/Fetching a value from the Store
+//getAllMovies will return the state.movies(name_of_our_slice).movies(the_property_we_want_to_fetch)
+export const getAllMovies = (state) => state.movies.movies
+
 //also export the movie slice reducer
 export default movieSlice.reducer;
