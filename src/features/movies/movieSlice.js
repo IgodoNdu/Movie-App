@@ -29,7 +29,7 @@ const movieSlice = createSlice({
 export const { addMovies } = movieSlice.actions;
 
 //Getting/Fetching a value from the Store
-//getAllMovies will return the state.movies(name_of_our_slice).movies(the_property_we_want_to_fetch)
+//getAllMovies will return the state.movies(name_of_our_slice).movies(name_of_the_property_of_the_state)
 export const getAllMovies = (state) => state.movies.movies
 
 //also export the movie slice reducer

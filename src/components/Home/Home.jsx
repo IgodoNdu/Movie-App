@@ -4,6 +4,7 @@ import MovieListing from '../MovieListing/MovieListing';
 //import base url & API Key fro OMDB movies
 import movieApi from '../apis/movieApi';
 import { APIKey } from '../apis/MovieApiKey';
+//To dispatch addMovies action
 import { useDispatch } from 'react-redux';
 import { addMovies } from '../../features/movies/movieSlice';
 
