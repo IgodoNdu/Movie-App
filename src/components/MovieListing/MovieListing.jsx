@@ -4,6 +4,8 @@ import { useSelector } from 'react-redux'
 import { getAllMovies } from '../../features/movies/movieSlice'
 //impor moviecard for movies display
 import MovieCard from '../MovieCard/MovieCard';
+//import Styling
+import "./MovieListing.scss";
 
 const MovieListing = () => {
   //Getting all the movies from the store
