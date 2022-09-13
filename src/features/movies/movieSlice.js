@@ -3,7 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 
 //Set an initial state
 const initialState = {
-    movies:[]
+    //having noticed from the redux inspect tool on the browser that movies is returned as an objec, not an array, i make the change below
+    //movies:[]
+    movies:{}
 }
 
 //Create the Slice
