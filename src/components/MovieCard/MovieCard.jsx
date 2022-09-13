@@ -1,5 +1,6 @@
 import React from 'react'
-
+//link styling
+import './MovieCard.scss';
 //recall prop of data was passed to MovieCard from MovieListing
 const MovieCard = (props) => {
   //destructure the data props
